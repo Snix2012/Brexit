@@ -2,13 +2,12 @@
 # Brexit
 
 ### Author
-Claire
+Claire Roughan
 
 ### Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac dolor justo, ac tempus leo. Etiam pulvinar eros at lectus sollicitudin scelerisque. Aliquam erat volutpat. Suspendisse eu eros non elit blandit suscipit. Morbi scelerisque euismod tempus.
+App to display latest news stories around Brexit.  Draws its data from https://newsapi.org
 
 ### Dependencies
-- Alamofire
-- Snapkit
+
 - Bla
 - Bla
