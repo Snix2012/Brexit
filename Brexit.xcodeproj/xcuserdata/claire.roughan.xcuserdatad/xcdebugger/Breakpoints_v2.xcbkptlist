@@ -4,19 +4,13 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Brexit/Services/WebService.swift"
-            timestampString = "571267957.79308"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "getArticles(url:completion:)"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +20,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Brexit/Services/WebService.swift"
-            timestampString = "571267957.79317"
+            timestampString = "571274998.103999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "getArticles(url:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Brexit.Webservice.getArticles(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;Brexit.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Brexit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claire.roughan/Swift_Projects/Brexit/Brexit/Services/WebService.swift"
+                  timestampString = "571274998.46737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1711">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Brexit.Webservice.getArticles(url: Foundation.URL, completion: (Swift.Optional&lt;Swift.Array&lt;Brexit.Article&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Brexit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claire.roughan/Swift_Projects/Brexit/Brexit/Services/WebService.swift"
+                  timestampString = "571274998.472685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "3684">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

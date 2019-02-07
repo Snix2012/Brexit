@@ -20,9 +20,9 @@ class NewHeadlinesListViewController: UITableViewController {
     private func setUp() {
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
-        let url = URL(string: "https://newsapi.org/v2/top-headlines?q=brexit&language=en&apiKey=d2468a5b386d477b88d02acfe60f28e9")
+       let url = URL(string:  "https://newsapi.org/v2/top-headlines?q=brexit&sortBy=popularity&language=en&apiKey=d2468a5b386d477b88d02acfe60f28e9")!
         
-        Webservice().getArticles(url:url!) {_ in  
+        Webservice().getArticles(url: url) { _ in
             
         }
     }
